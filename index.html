@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Лабораторна 3</title>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <h1>Введіть дані співробітників:</h1>
+
+        <form id="employeeForm" onsubmit="">
+            <div>
+                <label for="employee1Name">Прізвище співробітника 1:</label>
+                <input type="text" id="employee1Name" name="employeeName" required />
+                <label for="employee1HireDate">Дата прийому на роботу:</label>
+                <input type="date" id="employee1HireDate" name="hireDate" required />
+            </div>
+
+            <div>
+                <label for="employee2Name">Прізвище співробітника 2:</label>
+                <input type="text" id="employee2Name" name="employeeName" required />
+                <label for="employee2HireDate">Дата прийому на роботу:</label>
+                <input type="date" id="employee2HireDate" name="hireDate" required />
+            </div>
+
+            <div>
+                <label for="employee3Name">Прізвище співробітника 3:</label>
+                <input type="text" id="employee3Name" name="employeeName" required />
+                <label for="employee3HireDate">Дата прийому на роботу:</label>
+                <input type="date" id="employee3HireDate" name="hireDate" required />
+            </div>
+
+            <div>
+                <label for="employee4Name">Прізвище співробітника 4:</label>
+                <input type="text" id="employee4Name" name="employeeName" required />
+                <label for="employee4HireDate">Дата прийому на роботу:</label>
+                <input type="date" id="employee4HireDate" name="hireDate" required />
+            </div>
+
+            <div>
+                <label for="employee5Name">Прізвище співробітника 5:</label>
+                <input type="text" id="employee5Name" name="employeeName" required />
+                <label for="employee5HireDate">Дата прийому на роботу:</label>
+                <input type="date" id="employee5HireDate" name="hireDate" required />
+            </div>
+
+            <button type="submit">Розрахувати середній стаж</button>
+        </form>
+
+        <p id="result"></p>
+    </body>
+</html>
