@@ -12,4 +12,5 @@ function calculateAverageExperience(event) {
 
     let averageExperience = Math.round(totalExperience / hireDates.length);
     document.getElementById("result").textContent = "Середній стаж роботи працівників: " + averageExperience + " років";
+    document.getElementById("result").style.opacity = 1;
 }
